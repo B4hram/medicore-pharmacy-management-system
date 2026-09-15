@@ -1,16 +1,54 @@
-# React + Vite
+## 📸 Screenshots
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Dashboard](screenshots/dashboard.png)
 
-Currently, two official plugins are available:
+![Medicines](screenshots/medicines.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Inventory](screenshots/inventory.png)
 
-## React Compiler
+![Sales POS](screenshots/sales.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Customers](screenshots/suplier.png)
 
-## Expanding the ESLint configuration
+![Reports](screenshots/report.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+# 💊 MediCore Pharmacy Management System
+
+A professional Pharmacy Management System built with **React.js** for managing daily pharmacy operations.
+
+## ✨ Features
+
+- 📊 Dashboard
+- 💊 Medicine Management
+- 📦 Inventory Management
+- 🧾 Sales / POS
+- 👥 Customer Management
+- 🚚 Supplier Management
+- 🛒 Purchase Management
+- ⏰ Expiry Tracking
+- 🔔 Notifications
+- 📈 Reports & Analytics
+- 👨‍💼 Employee Management
+- ⚙️ Settings
+- 🔐 Login System
+- 🌙 Dark Mode
+- 📱 Responsive Design
+
+## 🛠️ Technologies
+
+- React.js
+- JavaScript
+- Vite
+- React Router
+- Lucide React
+- CSS3
+- Local Storage
+
+## 🚀 Run the Project
+
+```bash
+npm install
+npm run dev
