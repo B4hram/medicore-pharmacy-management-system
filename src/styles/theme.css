@@ -1,0 +1,624 @@
+/* =========================================================
+   MEDICORE THEME SYSTEM
+   ========================================================= */
+
+/* =========================================================
+   LIGHT THEME
+   ========================================================= */
+
+:root {
+  --app-background: #f8fafc;
+  --card-background: #ffffff;
+
+  --text-main: #172033;
+  --text-primary: #172033;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+
+  --border-color: #e5e7eb;
+  --border: #e5e7eb;
+  --border-light: #f1f5f9;
+}
+
+/* =========================================================
+   DARK THEME VARIABLES
+   ========================================================= */
+
+html[data-theme='dark'] {
+  --app-background: #0f172a;
+  --card-background: #1e293b;
+
+  --text-main: #f8fafc;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --border-color: #334155;
+  --border: #334155;
+  --border-light: #334155;
+}
+
+/* =========================================================
+   BODY
+   ========================================================= */
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+/* =========================================================
+   IMPORTANT:
+   DO NOT globally make every span white/gray.
+   This was causing the dashboard numbers to disappear.
+   ========================================================= */
+
+html[data-theme='dark'] p {
+  color: #cbd5e1;
+}
+
+/* =========================================================
+   MAIN APPLICATION
+   ========================================================= */
+
+html[data-theme='dark'] .app-layout {
+  background: #0f172a;
+}
+
+html[data-theme='dark'] .main-area {
+  background: #0f172a;
+}
+
+html[data-theme='dark'] .page-content {
+  background: #0f172a;
+}
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+html[data-theme='dark'] .sidebar {
+  background: #111827;
+  border-right-color: #334155;
+}
+
+html[data-theme='dark'] .sidebar-header {
+  background: #111827;
+  border-bottom-color: #334155;
+}
+
+html[data-theme='dark'] .brand-text h1 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .brand-text span {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .section-label {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .nav-item {
+  color: #cbd5e1;
+}
+
+html[data-theme='dark'] .nav-item svg {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .nav-item:hover {
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .nav-item:hover svg {
+  color: #60a5fa;
+}
+
+html[data-theme='dark'] .nav-item.active {
+  background: #1e3a8a;
+  color: #ffffff;
+}
+
+html[data-theme='dark'] .nav-item.active svg {
+  color: #60a5fa;
+}
+
+/* Sidebar footer */
+
+html[data-theme='dark'] .sidebar-footer {
+  background: #111827;
+  border-top-color: #334155;
+}
+
+html[data-theme='dark'] .sidebar-user {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] .sidebar-user-info strong {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .sidebar-user-info span {
+  color: #94a3b8;
+}
+
+/* =========================================================
+   TOPBAR
+   ========================================================= */
+
+html[data-theme='dark'] .topbar {
+  background: #111827;
+  border-bottom-color: #334155;
+}
+
+html[data-theme='dark'] .topbar-title {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .topbar-subtitle {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .topbar-icon-button {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+html[data-theme='dark'] .topbar-icon-button:hover {
+  background: #334155;
+  color: #60a5fa;
+}
+
+html[data-theme='dark'] .topbar-user {
+  border-left-color: #334155;
+}
+
+html[data-theme='dark'] .topbar-user-avatar {
+  color: #60a5fa;
+}
+
+html[data-theme='dark'] .topbar-user-info strong {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .topbar-user-info span {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .topbar-user-menu-button {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .topbar-user-menu {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] .topbar-user-menu button {
+  color: #e2e8f0;
+}
+
+html[data-theme='dark'] .topbar-user-menu button:hover {
+  background: #334155;
+}
+
+/* =========================================================
+   DASHBOARD
+   ========================================================= */
+
+html[data-theme='dark'] .dashboard-page {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .dashboard-page h1,
+html[data-theme='dark'] .dashboard-page h2,
+html[data-theme='dark'] .dashboard-page h3,
+html[data-theme='dark'] .dashboard-page h4 {
+  color: #f8fafc;
+}
+
+/* Dashboard subtitle */
+
+html[data-theme='dark'] .dashboard-page p {
+  color: #94a3b8;
+}
+
+/* =========================================================
+   STAT CARDS
+   ========================================================= */
+
+html[data-theme='dark'] .stat-card,
+html[data-theme='dark'] .dashboard-card {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .stat-card:hover,
+html[data-theme='dark'] .dashboard-card:hover {
+  border-color: #475569;
+}
+
+/* Card title */
+
+html[data-theme='dark'] .stat-card-title,
+html[data-theme='dark'] .dashboard-card-title {
+  color: #cbd5e1;
+}
+
+/* Card numbers — IMPORTANT */
+
+html[data-theme='dark'] .stat-card-value,
+html[data-theme='dark'] .dashboard-card-value {
+  color: #ffffff !important;
+}
+
+/* Card descriptions */
+
+html[data-theme='dark'] .stat-card-description,
+html[data-theme='dark'] .dashboard-card-description {
+  color: #94a3b8 !important;
+}
+
+/* Percentage/change */
+
+html[data-theme='dark'] .stat-card-change,
+html[data-theme='dark'] .stat-card-change span {
+  color: #4ade80;
+}
+
+/* =========================================================
+   DASHBOARD PANELS
+   ========================================================= */
+
+html[data-theme='dark'] .dashboard-panel,
+html[data-theme='dark'] .dashboard-section,
+html[data-theme='dark'] .sales-overview,
+html[data-theme='dark'] .important-alerts {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .card-header {
+  border-bottom-color: #334155;
+}
+
+html[data-theme='dark'] .card-header h3,
+html[data-theme='dark'] .card-header h4 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .card-header p {
+  color: #94a3b8;
+}
+
+/* =========================================================
+   DASHBOARD TABLES
+   ========================================================= */
+
+html[data-theme='dark'] table {
+  color: #e2e8f0;
+}
+
+html[data-theme='dark'] th {
+  background: #172033;
+  color: #94a3b8;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] td {
+  color: #cbd5e1;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] tr:hover td {
+  background: #172033;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+html[data-theme='dark'] .secondary-button,
+html[data-theme='dark'] .secondary-report-button {
+  background: #1e293b;
+  border-color: #334155;
+  color: #e2e8f0;
+}
+
+html[data-theme='dark'] .secondary-button:hover,
+html[data-theme='dark'] .secondary-report-button:hover {
+  background: #334155;
+}
+
+html[data-theme='dark'] .primary-button {
+  color: #ffffff;
+}
+
+/* =========================================================
+   INPUTS / SELECTS
+   ========================================================= */
+
+html[data-theme='dark'] input,
+html[data-theme='dark'] select,
+html[data-theme='dark'] textarea {
+  background: #172033;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] input::placeholder,
+html[data-theme='dark'] textarea::placeholder {
+  color: #64748b;
+}
+
+html[data-theme='dark'] input:focus,
+html[data-theme='dark'] select:focus,
+html[data-theme='dark'] textarea:focus {
+  border-color: #3b82f6;
+}
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+
+html[data-theme='dark'] .search-input,
+html[data-theme='dark'] .employee-search,
+html[data-theme='dark'] .inventory-search,
+html[data-theme='dark'] .medicine-search {
+  background: #172033;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+/* =========================================================
+   REPORTS
+   ========================================================= */
+
+html[data-theme='dark'] .report-panel,
+html[data-theme='dark'] .report-stat-card,
+html[data-theme='dark'] .report-summary-footer {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .report-panel h2,
+html[data-theme='dark'] .report-panel h3,
+html[data-theme='dark'] .report-stat-card h3 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .report-panel p,
+html[data-theme='dark'] .report-stat-card p {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .report-table th {
+  background: #172033;
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .report-table td {
+  color: #cbd5e1;
+  border-color: #334155;
+}
+
+/* =========================================================
+   EMPLOYEES
+   ========================================================= */
+
+html[data-theme='dark'] .employees-table-card,
+html[data-theme='dark'] .employee-summary-card {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .employees-table th {
+  background: #172033;
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .employees-table td {
+  color: #cbd5e1;
+  border-color: #334155;
+}
+
+/* Employee modal */
+
+html[data-theme='dark'] .employee-modal,
+html[data-theme='dark'] .employee-details-modal,
+html[data-theme='dark'] .employee-delete-modal {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .employee-details-profile {
+  background: #172033;
+}
+
+html[data-theme='dark'] .employee-details-grid {
+  background: #334155;
+}
+
+html[data-theme='dark'] .employee-details-grid > div {
+  background: #1e293b;
+}
+
+/* =========================================================
+   SETTINGS
+   ========================================================= */
+
+html[data-theme='dark'] .settings-card {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .settings-card h2,
+html[data-theme='dark'] .settings-card h3 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .settings-card p {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .settings-input {
+  background: #172033;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] .theme-option {
+  background: #172033;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .theme-option.active {
+  border-color: #3b82f6;
+  background: #1e3a8a;
+}
+
+/* =========================================================
+   NOTIFICATIONS
+   ========================================================= */
+
+html[data-theme='dark'] .notification-card,
+html[data-theme='dark'] .notifications-panel {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .notification-card h3,
+html[data-theme='dark'] .notification-card strong {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .notification-card p {
+  color: #94a3b8;
+}
+
+/* =========================================================
+   MODALS
+   ========================================================= */
+
+html[data-theme='dark'] .modal,
+html[data-theme='dark'] .modal-content,
+html[data-theme='dark'] .confirmation-modal,
+html[data-theme='dark'] .medicine-form-modal,
+html[data-theme='dark'] .medicine-details-modal,
+html[data-theme='dark'] .category-manager-modal {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .modal-header {
+  border-bottom-color: #334155;
+}
+
+html[data-theme='dark'] .modal-header h2,
+html[data-theme='dark'] .modal-header h3 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .modal-close-button {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .modal-close-button:hover {
+  color: #ffffff;
+  background: #334155;
+}
+
+/* =========================================================
+   LOGIN
+   ========================================================= */
+
+html[data-theme='dark'] .login-page {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(37, 99, 235, 0.12),
+      transparent 35%
+    ),
+    #0f172a;
+}
+
+html[data-theme='dark'] .login-card {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] .login-logo h1,
+html[data-theme='dark'] .login-heading h2 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .login-logo span,
+html[data-theme='dark'] .login-heading p {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .login-field label {
+  color: #cbd5e1;
+}
+
+html[data-theme='dark'] .login-input-wrapper {
+  background: #172033;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] .login-input-wrapper input {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .login-input-wrapper input::placeholder {
+  color: #64748b;
+}
+
+html[data-theme='dark'] .demo-login {
+  background: #172033;
+  border-color: #334155;
+}
+
+html[data-theme='dark'] .demo-login strong {
+  color: #e2e8f0;
+}
+
+html[data-theme='dark'] .demo-login span {
+  color: #94a3b8;
+}
+
+/* =========================================================
+   SCROLLBARS
+   ========================================================= */
+
+html[data-theme='dark'] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 10px;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
